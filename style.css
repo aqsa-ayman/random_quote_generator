@@ -43,7 +43,25 @@ p {position:relative;
    font-size:1.9em;
    color:white;
    }
-     
+
+/* ::selection, ::-moz-selection, ::-webkit-selection {
+  background-color: #fff;
+  color: #000;
+} */
+
+::-moz-selection {
+  background-color: orange;
+  color: white;
+}
+::selection  {
+  background-color: orange;
+  color: white;
+}
+::-webkit-selection {
+  background-color: orange;
+  color: white;
+}
+ 
 .btn {margin-top:20px;
       margin-left:auto;
       margin-right:auto;
