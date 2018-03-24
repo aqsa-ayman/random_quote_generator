@@ -35,11 +35,12 @@ h1 {
           text-align:center;
           border-radius:30px;
           border:solid white 5px;
+          overflow: hidden;
 }
 
 p {position:relative;
    padding:1em;
-   font-size:1.7em;
+   font-size:1.9em;
    color:white;
    }
      
